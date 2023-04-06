@@ -29,3 +29,12 @@ python app.py
 ```text
 !pip install --upgrade accelerate
 ```
+
+- 如何上传模型到huggingface
+```text
+git lfs install
+huggingface-cli lfs-enable-largefiles .
+```
+
+## 参考
+- https://github.com/tatsu-lab/stanford_alpaca

@@ -12,6 +12,16 @@
 |-----|----------|------|----|
 | LLama-7B-Alpaca | LLaMA-7B | 25GB |https://huggingface.co/quincyqiang/llama-7b-alpaca|
 
+
+
+## Gradio Web 应用
+
+```shell
+python app.py
+```
+
+![](https://raw.githubusercontent.com/yanqiangmiffy/LLaMA-Instruct-Learning/main/images/app_screenshot.png)
+
 ## requirements
 
 ```text
@@ -24,15 +34,6 @@ bitsandbytes
 git+https://github.com/huggingface/peft.git
 gradio
 ```
-
-## gradio demo
-
-```shell
-python app.py
-```
-
-![](https://raw.githubusercontent.com/yanqiangmiffy/LLaMA-Instruct-Learning/main/images/app_screenshot.png)
-
 ## Bugs
 
 - TypeError: dispatch_model() got an unexpected keyword argument 'offload_index'
